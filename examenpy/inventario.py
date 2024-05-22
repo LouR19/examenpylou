@@ -20,7 +20,7 @@ def agregar_producto():
     
 def buscar():
     while True:
-        nprod = input("Ingrese el nombre del contacto que desee buscar: ")
+        nprod = input("Ingrese el nombre del producto que desee buscar: ")
         producto = inventario.get(nprod)
         
         if nprod.isdigit():
